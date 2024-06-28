@@ -1,0 +1,91 @@
+.list-con {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  padding: 10px;
+}
+@media screen and (min-width: 768px) {
+  .list-con {
+    padding: 20px;
+  }
+}
+.time {
+  color: #64748b;
+  font-size: 15px;
+  font-weight: 500;
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .time {
+    font-size: 20px;
+    width: 15%;
+  }
+}
+
+.data-bag {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+@media screen and (min-width: 768px) {
+  .data-bag {
+    width: 85%;
+  }
+}
+.sub-container {
+  display: flex;
+  align-items: flex-start;
+}
+.name-url {
+  margin-left: 10px;
+}
+@media screen and (min-width: 768px) {
+  .name-url {
+    margin-left: 20px;
+    display: flex;
+  }
+}
+.web-logo {
+  width: 25px;
+  height: 25px;
+  margin-top: 18px;
+}
+@media screen and (min-width: 768px) {
+  .web-logo {
+    margin-top: 25px;
+  }
+}
+.app-name {
+  font-size: 15px;
+  color: #475569;
+  font-weight: 600;
+}
+@media screen and (min-width: 768px) {
+  .app-name {
+    font-size: 20px;
+  }
+}
+.app-url{
+  font-size: 15px;
+  color: #64748b;
+}
+@media screen and (min-width : 768px){
+  .app-url{
+    margin-top: 24px;
+    font-size: 18px;
+    padding-left: 10px;
+  }
+}
+.app-delete {
+  width: 25px;
+  height: 25px;
+  margin-top: 18px;
+}
+
+.button {
+  outline: none;
+  background-color: transparent;
+  border: none;
+}
